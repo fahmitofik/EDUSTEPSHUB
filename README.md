@@ -115,7 +115,7 @@ Contributors are encouraged to select tasks from the roadmap and submit pull req
 
 The following software is required:
 
-- Python 3.8 or higher
+- Python 3.11.9
 
 ---
 
@@ -124,7 +124,7 @@ The following software is required:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/edusteps-hub.git
+https://github.com/fahmitofik/EDUSTEPSHUB.git
 ```
 
 ## Create a Virtual Environment
@@ -228,8 +228,8 @@ Edusteps Hub
 
 This project is based on and inspired by:
 
-- Django LMS Starter by Adil Mohak
-- Django Quiz by Tom Walker
+- Django LMS Starter by Fahmi Tofik
+- Django Quiz by Fahmi Tofik
 
 Special thanks to all open-source contributors who make educational software accessible to everyone.
 
