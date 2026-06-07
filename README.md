@@ -26,7 +26,7 @@ We welcome developers, educators, and open-source enthusiasts to help improve th
 
 ## Preview
 
-<img width="1440" alt="Edusteps Hub Screenshot" src="https://github.com/user-attachments/assets/08644f49-6ae0-4695-86cc-afe331c6f61a">
+<img width="1440" alt="Edusteps Hub Screenshot" src="static/img/Screenshot.png">
 
 ---
 
