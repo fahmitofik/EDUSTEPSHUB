@@ -1,4 +1,4 @@
-![Edusteps Hub Banner](https://github.com/user-attachments/assets/4e84251a-27b0-462b-bd5e-fb0bcadc4694)
+![Edusteps Hub Banner](static/img/brand-filled.png)
 
 ### Modern, lightweight, and feature-rich Learning Management System built with Django
 
