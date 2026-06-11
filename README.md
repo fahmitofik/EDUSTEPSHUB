@@ -1,5 +1,5 @@
-<div align="center">
 ![Edusteps Hub Banner](static/img/brand-filled.png)
+<div align="center">
 
 ### Modern, lightweight, and feature-rich Learning Management System built with Django
 
