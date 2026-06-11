@@ -1,10 +1,21 @@
+<div align="center">
 ![Edusteps Hub Banner](static/img/brand-filled.png)
 
 ### Modern, lightweight, and feature-rich Learning Management System built with Django
 
-# Edusteps Hub
+# 🚀 Edusteps Hub
 
 An open-source Learning Management System (LMS) built using the Django web framework.
+### *An enterprise-grade, lightweight, and modular Learning Management System (LMS) built on the Django framework.*
+
+[![Python Version](https://img.shields.io/badge/Python-3.11.9-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![Django Version](https://img.shields.io/badge/Django-4.2+-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com)
+[![License](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blueviolet?style=for-the-badge)](CONTRIBUTING.md)
+
+[Explore Documentation](##documentation) • [Core Architecture](##core-architecture--features) • [Deployment Blueprint](##quickstart--deployment-blueprint) • [Report Issues](https://github.com/fahmitofik/EDUSTEPSHUB/issues)
+
+</div>
 
 Edusteps Hub is designed for schools, colleges, universities, training centers, and independent educators who need a flexible and powerful platform for managing academic activities online.
 
@@ -14,6 +25,7 @@ Our goal is to create a modern, scalable, and user-friendly LMS while keeping th
 
 ⭐ If you find this project useful, consider starring the repository and contributing to its growth.
 
+> ⚡ **Operational Status:** Production-ready framework optimized for rapid deployment, role-based security isolation, and automated academic workflows.
 ---
 
 ## Documentation
@@ -26,7 +38,9 @@ We welcome developers, educators, and open-source enthusiasts to help improve th
 
 ## Preview
 
-<img width="1440" alt="Edusteps Hub Screenshot" src="static/img/Screenshot.png">
+<div align="center">
+  <img width="100%" alt="Edusteps Hub Platform Experience" src="static/img/Screenshot.png" style="border-radius: 8px; box-shadow: 0 4px 25px rgba(0,0,0,0.15);">
+</div>
 
 ---
 
@@ -124,7 +138,8 @@ The following software is required:
 ## Clone the Repository
 
 ```bash
-https://github.com/fahmitofik/EDUSTEPSHUB.git
+git clone [https://github.com/fahmitofik/EDUSTEPSHUB.git](https://github.com/fahmitofik/EDUSTEPSHUB.git)
+cd EDUSTEPSHUB
 ```
 
 ## Create a Virtual Environment
@@ -150,6 +165,7 @@ source venv/bin/activate
 ## Install Dependencies
 
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -160,30 +176,24 @@ Create a `.env` file in the project root.
 Copy the contents of:
 
 ```bash
-.env.example
-```
-
-into:
-
-```bash
-.env
+cp .env.example .env
 ```
 
 Then update the values according to your local environment.
 
-## Apply Database Migrations
+## Execute Database Schema Migrations
 
 ```bash
 python manage.py migrate
 ```
 
-## Create an Administrator Account
+## Provision Administrative Credentials
 
 ```bash
 python manage.py createsuperuser
 ```
 
-## Run the Development Server
+## Spin up local development engine
 
 ```bash
 python manage.py runserver
